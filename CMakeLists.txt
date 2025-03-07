@@ -16,10 +16,14 @@ add_subdirectory(googletest)
 
 set (Headers
     include/SampleClass.h
+    include/Rational.h
+    include/RationalSet.h
 )
 
 set (Sources
     src/SampleClass.cpp
+    src/Rational.cpp
+    src/RationalSet.cpp
 )
 
 add_library(${This} STATIC ${Sources} ${Headers})
